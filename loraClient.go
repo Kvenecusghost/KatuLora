@@ -13,7 +13,7 @@ func init() {
 }
 
 func main() {
-	http.HandleFunc("/devices", devices)
+	http.HandleFunc("/lora", devices)
 	http.ListenAndServe("8080", nil)
 }
 
